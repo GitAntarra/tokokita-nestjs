@@ -1,74 +1,129 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="" rel="noopener">
+ <img src="https://yt3.googleusercontent.com/tm_dO1ddohEJ287AUNs74Az3Pyoewl3aswN7vTx5AtiZ1E9qb8G4Xz8Gu5-mNNF4bH5uGylG=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" alt="Project logo"></a>
+</p>
+<h3 align="center">tokokita-api</h3>
+
+<div align="center">
+
+[![Hackathon](https://img.shields.io/badge/hackathon-name-orange.svg)](http://hackathon.url.com) 
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+
+</div>
+
+---
+
+<p align="center"> Few lines describing your project.
+    <br> 
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## 📝 Table of Contents
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+- [Project Description](#project_description)
+- [Installing NestJs Framework](#nestjs)
+- [Environment Setup](#env)
+- [Typeorm & Mysql](#typeorm)
+- [CRUD Users](#users)
+- [Static Response](#usage)
+- [Pagination](#tech_stack)
+- [JWT Token & Auth](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgments)
 
-## Description
+## 🧐 Project Description <a name = "project_description"></a>
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+It is useful to design and follow a specific format when writing a problem statement. While there are several options
+for doing this, the following is a simple and straightforward template often used in Business Analysis to maintain
+focus on defining the problem.
 
-## Installation
+- IDEAL: This section is used to describe the desired or “to be” state of the process or product. At large, this section
+  should illustrate what the expected environment would look like once the solution is implemented.
+- REALITY: This section is used to describe the current or “as is” state of the process or product.
+- CONSEQUENCES: This section is used to describe the impacts on the business if the problem is not fixed or improved upon.
+  This includes costs associated with loss of money, time, productivity, competitive advantage, and so forth.
 
-```bash
-$ npm install
+Following this format will result in a workable document that can be used to understand the problem and elicit
+requirements that will lead to a winning solution.
+
+## 💡 Installing Nest Js <a name = "nestjs"></a>
+
+Plese Visit https://docs.nestjs.com/ for more detail information and documentations
+
+```
+$ npm i -g @nestjs/cli
+$ yarn new tokokita-api
 ```
 
-## Running the app
+## ⛓️ Setup Environment <a name = "env"></a>
 
-```bash
-# development
-$ npm run start
+- What are the dependencies of your project?
+- Describe each limitation in detailed but concise terms
+- Explain why each limitation exists
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+```
+$ yarn add @nestjs/config joi
 ```
 
-## Test
+## 🚀 TypeOrm & MySql <a name = "typeorm"></a>
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+Write about what you could not develop during the course of the Hackathon; and about what your project can achieve
+in the future.
+```
+$ yarn add @nestjs/typeorm typeorm mysql2
 ```
 
-## Support
+## 🏁 CRUD Users <a name = "users"></a>
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+These instructions will get you a copy of the project up and running on your local machine for development
+and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-## Stay in touch
+### Prerequisites
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+What things you need to install the software and how to install them.
 
-## License
+```
+Give examples
+```
 
-Nest is [MIT licensed](LICENSE).
-# tokokita-api-nestjs
+### Installing
+
+A step by step series of examples that tell you how to get a development env running.
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+## 🎈 Static Response <a name="usage"></a>
+
+Add notes about how to use the system.
+
+## ⛏️ Built With <a name = "tech_stack"></a>
+
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Express](https://expressjs.com/) - Server Framework
+- [VueJs](https://vuejs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
+who participated in this project.
+
+## 🎉 Acknowledgments <a name = "acknowledgments"></a>
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
